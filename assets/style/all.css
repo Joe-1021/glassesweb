@@ -1,23 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.5;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Roboto', sans-serif; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+a {
+  text-align: center;
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px; }
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px; } }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 372px; } }
+
 .header {
-  height: 200px;
-  background-color: #00cc99; }
+  background: #AA0601;
+  padding-top: 16px;
+  padding-bottom: 16px; }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99; }
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+.nav-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .box:hover {
-    width: 200px;
-    background-color: #00cc99; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media (max-width: 768px) {
+  .nav-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
+.logo a {
+  background-image: url(../images/logo-white.png);
+  width: 80px;
+  height: 50px;
+  background-size: cover;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.menu li a {
+  color: white;
+  display: block;
+  font-size: 20px;
+  padding: 10px 32px;
+  text-align: center; }
+
+.menu li a:hover {
+  color: #AA0601;
+  background: white; }
+
+@media (max-width: 768px) {
+  .logo {
+    margin-bottom: 12px; }
+  .menu {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .menu li {
+    width: 50%;
+    border: 1px solid white; } }
+
+.footer {
+  background: #AA0601;
+  padding-top: 48px;
+  padding-bottom: 32px;
+  color: #FFFFFF; }
+
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #FFFFFF; }
+
+.menu-list a {
+  color: #FFFFFF;
+  font-size: 16px;
+  display: block;
+  padding: 5px 24px; }
+
+.ml--24 {
+  margin-left: -24px; }
+
+.menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.menu-list a:hover {
+  background: #FFFFFF;
+  color: #AA0601; }
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.social a {
+  padding: 5px 16px; }
+
+.mr--16 {
+  margin-right: -16px; }
+
+.social img {
+  width: 48px;
+  height: 48px; }
+
+.social img:hover {
+  opacity: 0.8; }
+
+.footer-contact {
+  padding-top: 24px;
+  padding-bottom: 32px; }
+
+.footer-contact a {
+  color: #FFFFFF; }
+
+.footer-contact a:hover {
+  color: #AA0601;
+  background: #FFFFFF; }
+
+.tel {
+  font-size: 36px;
+  margin-left: 20px; }
+
+.mail {
+  font-size: 36px;
+  margin-left: 20px; }
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 32px; }
+
+.fs-36 {
+  font-size: 36px; }
+
+.other-serve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px; }
+
+.other-serve a {
+  color: #FFFFFF;
+  padding: 5px 24px; }
+
+.mr--24 {
+  margin-right: -24px; }
+
+.other-serve a:hover {
+  color: #AA0601;
+  background: #FFFFFF; }
+
+@media (max-width: 991px) {
+  .social img {
+    width: 40px;
+    height: 40px; }
+  .social a {
+    padding: 5px 8px; } }
+
+@media (max-width: 768px) {
+  .menu-contact {
+    margin-top: -24px; }
+  .menu-list {
+    display: none; }
+  .tel, .mail {
+    font-size: 16px;
+    margin-left: 11px; }
+  .fs-36 {
+    font-size: 18px; }
+  .social img {
+    width: 24px;
+    height: 24px; }
+  .copyright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .copyright p {
+    margin-bottom: 8px; }
+  .other-serve {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .other-serve a {
+    font-size: 16px;
+    padding: 0px 0px; } }
 
 /*# sourceMappingURL=all.css.map */
