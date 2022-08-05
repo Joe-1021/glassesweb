@@ -1,16 +1,3 @@
-*, *::before, *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
-a {
-  text-align: center;
-  text-decoration: none; }
-
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle; }
-
 .container {
   max-width: 1320px;
   margin: 0 auto;
@@ -24,46 +11,6 @@ img {
 @media (max-width: 768px) {
   .container {
     max-width: 372px; } }
-
-.header {
-  background: #AA0601;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.logo a {
-  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true);
-  width: 80px;
-  height: 50px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-indent: 101%;
-  overflow: hidden;
-  display: block; }
-
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-
-.menu a {
-  color: white;
-  display: block;
-  font-size: 20px;
-  padding: 10px 32px; }
-
-.menu a:hover {
-  color: #AA0601;
-  background: white; }
-
-.mr--32 {
-  margin-right: -32px; }
 
 .series {
   padding-bottom: 80px; }
@@ -241,106 +188,6 @@ img {
   .page a {
     font-size: 16px;
     padding: 12px 14px; } }
-
-.footer {
-  background: #AA0601;
-  padding-top: 48px;
-  padding-bottom: 32px;
-  color: #FFFFFF; }
-
-.footer-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-bottom: 1px solid #FFFFFF; }
-
-.menu-list a {
-  color: #FFFFFF;
-  font-size: 16px;
-  display: block;
-  padding: 5px 24px; }
-
-.ml--24 {
-  margin-left: -24px; }
-
-.menu-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-
-.menu-list a:hover {
-  background: #FFFFFF;
-  color: #AA0601; }
-
-.social a {
-  padding: 5px 16px; }
-
-.mr--16 {
-  margin-right: -16px; }
-
-.social img {
-  width: 48px;
-  height: 48px; }
-
-.social img:hover {
-  opacity: 0.8; }
-
-.footer-contact {
-  padding-top: 24px;
-  padding-bottom: 32px; }
-
-.footer-contact a {
-  color: #FFFFFF; }
-
-.footer-contact a:hover {
-  color: #AA0601;
-  background: #FFFFFF; }
-
-.tel {
-  font-size: 36px;
-  margin-left: 20px; }
-
-.mail {
-  font-size: 36px;
-  margin-left: 20px; }
-
-.copyright {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 32px; }
-
-.fs-36 {
-  font-size: 36px; }
-
-.other-serve {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-size: 14px; }
-
-.other-serve a {
-  color: #FFFFFF;
-  padding: 5px 24px; }
-
-.mr--24 {
-  margin-right: -24px; }
-
-.other-serve a:hover {
-  color: #AA0601;
-  background: #FFFFFF; }
 
 .df {
   display: -webkit-box;
