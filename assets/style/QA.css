@@ -1,0 +1,64 @@
+body {
+  line-height: 1.5;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Roboto', sans-serif; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+a {
+  text-align: center;
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px; }
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px; } }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 372px; } }
+
+.content {
+  padding-top: 96px;
+  padding-bottom: 80px; }
+
+.content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  border-left: 8px solid #9F1213;
+  padding-left: 16px;
+  margin-bottom: 32px; }
+
+.content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 24px; }
+
+.QA-list {
+  margin-bottom: 32px; }
+
+.QA-list:last-child {
+  margin-bottom: 0px; }
+
+.Q-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px; }
+
+@media (max-width: 768px) {
+  .content h2 {
+    font-size: 24px; } }
+
+/*# sourceMappingURL=QA.css.map */
