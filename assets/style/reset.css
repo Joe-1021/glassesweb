@@ -52,4 +52,12 @@ img {
   height: auto;
   vertical-align: middle; }
 
+a {
+  text-decoration: none;
+  text-align: center; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 /*# sourceMappingURL=reset.css.map */
