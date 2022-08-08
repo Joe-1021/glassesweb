@@ -1,7 +1,6 @@
 .banner {
   background-image: url(../images/home-header.png);
-  padding-top: 296px;
-  padding-bottom: 296px;
+  height: 80vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
@@ -16,7 +15,11 @@
           flex-direction: column;
   -webkit-box-align: end;
       -ms-flex-align: end;
-          align-items: flex-end; }
+          align-items: flex-end;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .banner-title {
   font-size: 36px;
@@ -212,6 +215,7 @@ h3 {
           justify-content: space-between; }
 
 .recommend img {
+  width: 100%;
   margin-bottom: 16px; }
 
 .recommend img:hover {
