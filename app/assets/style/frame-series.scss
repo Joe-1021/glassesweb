@@ -1,68 +1,3 @@
-*,*::before,*::after{
-    box-sizing:border-box;
-}
-a{
-    text-align: center;
-    text-decoration: none;
-}
-img{
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-}
-
-.container{
-    max-width: 1320px;
-    margin: 0 auto;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-@media (max-width:991px){
-    .container{
-        max-width: 720px;
-    }
-}
-@media (max-width:768px){
-    .container{
-        max-width: 372px;
-    }
-}
-
-.header{
-    background: #AA0601;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    align-items: center;
-}
-.logo a{
-    background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true);
-    width: 80px;
-    height: 50px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-indent: 101%;
-    overflow: hidden;
-    display: block;
-}
-.menu{
-    display: flex;
-    justify-content: space-between;
-}
-.menu a{
-    color:white;
-    display: block;
-    font-size: 20px;
-    padding: 10px 32px;
-}
-.menu a:hover{
-    color:#AA0601;
-    background: white;
-}
-.mr--32{
-    margin-right: -32px;
-}
-
 
 .series{
     padding-bottom: 80px;
@@ -71,7 +6,8 @@ img{
     display: flex;
 }
 .series-list li{
-    width: 432px;
+    width: 33.3%;
+    border: 1px solid #DCDCDC ;
 }
 .series-list a{
     font-size: 32px;
@@ -108,8 +44,11 @@ img{
     .series{
         padding-bottom: 40px;
     }
-    .series-list li{
-        width: 256px;
+    .series-bar{
+        padding-inline: 0;
+    }
+    .series-list{ 
+        width: 100%;
     }
     .series-list a{
         font-size: 24px;
@@ -123,9 +62,6 @@ img{
     }
 }
 @media (max-width:768px){
-    .series-list li{
-        width: 125px;
-    }
     .series-list a{
         font-size: 16px;
         padding: 12px 0px;
@@ -153,10 +89,9 @@ img{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/* .product img{
-    width: 306px;
-    height: 168px;
-} */
+.product img{
+    width: 100%;
+} 
 .product li{
     width: 24%;
     margin-bottom: 80px;
@@ -243,97 +178,6 @@ img{
     }
 }
 
-
-.footer{
-    background: #AA0601;
-    padding-top: 48px;
-    padding-bottom: 32px;
-    color:#FFFFFF
-}
-.footer-menu{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #FFFFFF;
-}
-.menu-list a{
-    color:#FFFFFF;
-    font-size: 16px;
-    
-    display: block;
-    padding: 5px 24px;
-}
-.ml--24{
-    margin-left: -24px;
-}
-.menu-list{
-    display: flex;
-    justify-content: space-between;
-}
-.menu-list a:hover{
-    background: #FFFFFF;
-    color: #AA0601;
-}
-
-.social a{
-    padding: 5px 16px;
-}
-.mr--16{
-    margin-right: -16px;
-}
-.social img{
-    width: 48px;
-    height: 48px;
-}
-.social img:hover{
-    opacity: 0.8;
-}
-.footer-contact{
-    padding-top: 24px;
-    padding-bottom: 32px;
-}
-.footer-contact a{
-    color:#FFFFFF;
-}
-.footer-contact a:hover{
-    color:#AA0601;
-    background: #FFFFFF;
-}
-
-.tel{
-    font-size: 36px;
-    
-    margin-left: 20px;
-}
-.mail{
-    font-size: 36px;
-
-    margin-left: 20px;
-}
-.copyright{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 32px;
-}
-.fs-36{
-    font-size: 36px;
-}
-.other-serve{
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-
-}
-.other-serve a{
-    color:#FFFFFF;
-    padding: 5px 24px;
-}
-.mr--24{
-    margin-right: -24px;
-}
-.other-serve a:hover{
-    color:#AA0601;
-    background: #FFFFFF;
-}
 
 
 
