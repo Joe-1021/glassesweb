@@ -47,7 +47,8 @@
   .series {
     padding-bottom: 40px; }
   .series-bar {
-    padding-inline: 0; }
+    padding-inline: 0;
+    max-width: 100%; }
   .series-list {
     width: 100%; }
   .series-list a {
