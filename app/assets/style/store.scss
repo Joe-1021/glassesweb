@@ -54,20 +54,22 @@
 .contact-info a{
     color:black;
 }
+.contact-info a:hover{
+    color:#AA0601;
+}
 .contact-info li:nth-child(1),.contact-info li:nth-child(2){
     margin-bottom: 8px;
 }
 
-.detail-info {
-    background: black;
-    padding: 16px 0px;
-
-}
 .detail-info a{
     display: block;
     font-size: 19px;
-    color:white;
-    
+    color:white; 
+    background: black;
+    padding: 16px 0px;
+}
+.detail-info a:hover{
+    color:#AA0601; 
 }
 @media (max-width:991px){
     .store-card{

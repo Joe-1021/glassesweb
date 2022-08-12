@@ -52,10 +52,14 @@
     margin-bottom: 0px;
 }
 .blog-card img{
-    width: 50%;
+    max-width: 50%;
     margin-right: 24px;
 }
-
+.blog-content{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
 .blog-content h3{
     color:#650300;
     font-size: 32px;
@@ -77,8 +81,9 @@
     color:#650300;
     font-size: 36px;
     display: flex;
-    justify-content: flex-end;
-    margin-top: 102px;
+    margin-top: auto;
+    justify-content: end;
+
 }
 .MORE:hover{
 opacity: 0.9;
