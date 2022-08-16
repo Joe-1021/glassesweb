@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(../images/home-header.png);
+  background-image: url(/glassesweb/app/assets/images/home-header.png);
   height: 80vh;
   background-size: cover;
   background-position: center center;
@@ -44,7 +44,7 @@ h2 {
 
 @media (max-width: 768px) {
   .banner {
-    background-image: url(../images/home-header-sm.png);
+    background-image: url(/glassesweb/app/assets/images/home-header-sm.png);
     height: 396px; }
   .banner-title {
     font-size: 16px; }
@@ -272,8 +272,7 @@ h3 {
   width: 636px; }
 
 .contact-list input {
-  padding: 6px 0;
-  background: #FBF2F2; }
+  padding: 6px 0; }
 
 .btn-submit {
   display: -webkit-box;

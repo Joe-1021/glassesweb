@@ -14,10 +14,10 @@
   font-weight: bold;
   margin-bottom: 24px; }
 
-.QA-list {
+.QA-list li {
   margin-bottom: 32px; }
 
-.QA-list:last-child {
+.QA-list li:last-child {
   margin-bottom: 0px; }
 
 .Q-title {
@@ -26,6 +26,8 @@
   margin-bottom: 8px; }
 
 @media (max-width: 768px) {
+  .QA-list li {
+    margin-bottom: 24px; }
   .content h2 {
     font-size: 24px; } }
 
