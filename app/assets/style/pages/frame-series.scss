@@ -22,7 +22,7 @@
     display: flex;
 }
 .series-img-left {
-     background-image:url(../images/product-header-1.png);
+     background-image:url(/glassesweb/app/assets/images/product-header-1.png);
      width: 50%;
      height: 296px;
      background-size: cover;
@@ -30,7 +30,7 @@
      background-repeat: no-repeat;
 }
 .series-img-right{
-    background-image: url(../images/product-header-2.png);
+    background-image: url(/glassesweb/app/assets/images/product-header-2.png);
     width: 50%;
      height: 296px;
      background-size: cover;
@@ -56,10 +56,10 @@
         padding: 16px 0px;
     }
     .series-img-left{
-        background-image: url(../images/product-header-sm-1.png);
+        background-image: url(/glassesweb/app/assets/images/product-header-sm-1.png);
     }
     .series-img-right{
-        background-image: url(../images/product-header-sm-2.png);
+        background-image: url(/glassesweb/app/assets/images/product-header-sm-2.png);
     }
 }
 @media (max-width:768px){
