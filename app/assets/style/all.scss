@@ -1,8 +1,8 @@
-@import './base/reset.css';
-@import './layout.css';
+@import 'pages/reset';
+@import '_layout';
 
-@import './pages/index.css';
-@import './pages/frame-series.css';
-@import './pages/store.css';
-@import './pages/blog.css';
-@import './pages/QA.css';
+@import 'pages/index';
+@import 'pages/frame-series';
+@import 'pages/store';
+@import 'pages/blog';
+@import 'pages/QA';
