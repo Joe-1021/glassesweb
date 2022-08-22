@@ -1173,8 +1173,7 @@ h3 {
 
 @media (max-width: 768px) {
   .blog-card {
-    display: block;
-    width: 100%;
+    width: 200%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
