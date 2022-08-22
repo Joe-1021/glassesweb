@@ -108,6 +108,8 @@ opacity: 0.9;
 }
 @media (max-width:768px){
     .blog-card{
+        display: block;
+        width: 100%;
         flex-direction: column;
     }
     .blog-card p,.MORE{
@@ -116,9 +118,7 @@ opacity: 0.9;
     .blog-card{
         margin-bottom: 24px;
     }
-    .blog-card img{
-        width: 100%;
-    }
+
     .blog-content{
         padding-top: 8px;
     }

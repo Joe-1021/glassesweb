@@ -1,5 +1,5 @@
 .banner{
-    background-image: url(/glassesweb/app/assets/images/home-header.png);
+    background-image: url(../images/home-header.png);
     height: 80vh;
     background-size: cover;
     background-position: center center;
@@ -36,7 +36,7 @@ h2{
  
 @media (max-width:768px){
     .banner{
-        background-image: url(/glassesweb/app/assets/images/home-header-sm.png);
+        background-image: url(../images/home-header-sm.png);
         height: 396px;
     }
     .banner-title{
