@@ -108,8 +108,7 @@ opacity: 0.9;
 }
 @media (max-width:768px){
     .blog-card{
-        display: block;
-        width: 100%;
+        width: 200%;
         flex-direction: column;
     }
     .blog-card p,.MORE{
